@@ -1,6 +1,18 @@
 # nba-alltime-season-ranks-2012on
 Ranking the greatest NBA seasons since 2012 using a transparent “combined score” that blends impact, efficiency, team context, and availability. Reproducible Python pipeline with data cleaning, feature engineering, and weights you can tweak.
 
+---
+
+## Getting the Data
+
+This project uses game-log data from Kaggle:
+
+- **Dataset**: [Historical NBA Data and Player Box Scores on Kaggle](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores)
+
+### Manual Download
+1. Visit the Kaggle dataset page at the link above.
+2. Download the CSV or zip file.
+
 # Greatest NBA Seasons Since 2012 (Custom Ranking)
 
 This project ranks the greatest NBA seasons since 2012 using a **Combined Score** built from two complementary measures:  
